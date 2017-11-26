@@ -1,0 +1,644 @@
+*{
+	margin: 0;
+	padding:0;
+	list-style: none;
+}
+a{	display: block;
+	text-decoration: none;
+}
+img{
+	display: block;
+}
+/* top开始 */
+.toptop{
+	height: 580px;
+	box-sizing: border-box;
+	background: #fafafa;
+	position: relative;
+	top: 0;
+	left: 0;
+	padding-top: 88px;
+	margin-bottom: 12px;
+}
+.toptop1{
+	padding-top: 47px;
+	background:#F9F0EB;
+}
+.toptop2{
+	background: #fafafa;
+}
+.top{
+	width: 100%;
+	height: 40px;
+	background: #444;
+}
+.top1{
+	width: 976px;
+	height: 40px;
+	margin: 0 auto;
+	font-size: 12px;
+	line-height: 40px;
+	text-align: right;
+	color:  #fff;
+}
+/* top结束 */
+/* nav开始 */
+nav{
+	width: 100%;
+	height: 44px;
+	background: #323232;
+	position: fixed;
+	top: 0px;
+	left: 0;
+	z-index: 100;
+}
+.nav1{
+	width: 1000px;
+	height: 44px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+nav a{
+	display: block;
+	padding: 0 10px;
+	width: auto;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+}
+nav a:hover{
+	color: #B7B7B7;
+}
+.nav2{
+	width: auto;
+	height: 44px;
+	display: none;
+}
+ .iconfont{
+	font-size: 20px;
+}
+/* nav结束 */
+/* 图片一二三开始 */
+.tu1{
+	width: 100%;
+	height: 98px;
+}
+.tu1 h2{
+	width: auto;
+	height: 56px;
+	line-height: 56px;
+	font-size: 56px;
+	margin: 0 auto;
+	text-align: center;
+}
+.tu1 h3{
+	width: auto;
+	font-size: 27px;
+	margin: 8px auto 0;
+	text-align: center;
+	font-weight: 400;
+}
+.tu2{
+	width:909px;
+	height: 194px;
+	background-image:url("../img/iphone1.jpg");
+	background-size: 100% 100%;
+	position: absolute;
+	top: 274px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.tu3{
+	top: 185px;
+	width: 561px;
+	height: 395px;
+	background-image:url("../img/iphone2.jpg");
+}
+.tu4{
+	top: 197px;
+	width:767px;
+	height: 341px;
+	background-image:url("../img/watch_large.jpg");
+}
+.tup{
+	width: 182px;
+	height: 72px;
+	margin: 0 auto;
+	background-image: url('../img/watch_series_3_large.png');
+	background-size: 100% 100%;
+}
+/* 图片一二三结束 */
+/* 货物列表开始 */
+.goods{
+	width: auto;
+	height: 580px;
+	margin: 0 auto 12px;
+}
+.goods1{
+	width: 50%;
+	height:100%;
+	border-right: 6px solid #fff;
+	border-left: 12px solid #fff;
+	float: left;
+	box-sizing: border-box;
+	background-image: url('../img/tv_4k_large.jpg');
+	background-position: center;
+	background-size:793px 587px;
+}
+.goods1-zi{
+	width: 100%;
+	height: 125px;
+	padding-top: 50px;
+	box-sizing: border-box;
+}
+.goods1-zi2{
+	height: 130px;
+	padding-top: 57px;
+}
+.goods1-zi .zi1{
+	width: 116px;
+	height: 32px;
+	margin: 0 auto;
+	background-image: url('../img/tv_4k_large.png');
+	background-size: 100% 100%;
+}
+.goods1-zi .zi2{
+	text-align: center;
+	color: #fff;
+	margin: 4px auto 0;
+	font-size: 21px;
+}
+.goods2{
+	background: #fafafa;
+	width: 50%;
+	height:100%;
+	border-right: 12px solid #fff;
+	border-left: 6px solid #fff;
+	float: left;
+	box-sizing: border-box;
+}
+.goods2 .zi3{
+	text-align: center;
+	color: #111;
+	font-size: 38px;
+}
+.goods2 .zi4{
+	width: 400px;
+	color: #111;
+	margin-top: 0;
+}
+.goods2-tu{
+	width: 100%;
+	height: 454px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.goods2-tu2{
+	height: 423px;
+	}
+.goods2-tutu{
+	width: 510px;
+	height: 146px;
+	background-image :url('../img/ipad_pro_large.jpg');
+	background-size: 100% 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.goods3-tutu{
+	width: 438px;
+	height: 309px;
+	background:url('../img/imac_large.jpg');
+}
+.goods4-tutu{
+	width: 385px;
+	height: 304px;
+	background-image:url('../img/airpods_large.jpg');
+}
+.goods4-zi{
+	height: 150px;
+}
+/* 货物结束 */
+/* foot开始 */
+.foot{
+	width: 100%;
+	height:auto;
+	padding-top: 40px;
+	box-sizing: border-box;
+	background-color: #F2F2F2;
+	clear: both;
+}
+.foot1{
+	width: 980px;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.foot1-1{
+	font-weight: 600;
+	font-size: 11px;
+	width: 20%;
+	height:auto;
+	float: left;
+	color: #555;
+}
+.cha{
+	float: left;
+	display: none;
+}
+.foot1-2{
+	font-weight: 600;
+	font-size: 11px;
+	width: 100%;
+	height:auto;
+	margin-top: 10px;
+}
+.foot1-1 a,.foot1-2 a{
+
+	font-weight: 500;
+	font-size: 10px;
+	color: #555;
+	height:auto;
+	padding: 4px 0;
+}
+.foot1-1 a:hover{
+	text-decoration: underline;
+}
+.foot2{
+	width: 980px;
+	padding: 34px 0 21px;
+	height: auto;
+	margin: 0 auto;
+}
+.foot22{
+	width: auto;
+	height: 29px;
+	border-bottom: 1px solid #d6d6d6;
+}
+.foot2-1{
+	float: left;
+	font-size: 10px;
+	color: #888;
+	line-height: 30px;
+}
+.foot2-1 a{
+	width: auto;
+	display: inline;
+    color: #0070c9;
+}
+.foot2-1 a:hover{
+	text-decoration: underline;
+}
+.foot3 :nth-child(1){
+	margin-right:15px;
+}
+.foot3 :nth-child(7){
+	border-right:0;
+}
+.foot3{
+	margin-top: 10px;
+	overflow: hidden;
+}
+.foot4{
+	margin-top: 10px;
+	overflow: hidden;
+}
+.foot3 a,.foot4 a{
+	float: left;
+	font-size: 10px;
+	color: #555;
+	margin-right: 10px;
+	padding-right: 10px;
+	border-right: 1px solid #dadada;
+}
+.foot3 a:hover,.foot4 a:hover{
+	text-decoration: underline;
+}
+.foot3 .foot3-1{
+	float: left;
+	font-size: 10px;
+	color: #888;
+}
+.foot4 .foot3-1{
+	height: 20px;
+	font-size: 10px;
+	color: #888;
+}
+.foot3-2{
+	float: right;
+	width: auto;
+}
+.foot3-2 .foot-last{
+	margin-right: 0;
+	width: 16px;
+	height: 16px;
+	background: url('../img/last.png') no-repeat;
+	background-size: 100% 100%;
+	float: left;
+	cursor: pointer;
+}
+.foot3-2 a{
+	padding: 0 0 0 5px;
+	border: 0;
+	float: left;
+}
+.foot4{
+	display: none;
+}
+/* foot结束 */
+/* 屏幕1开始  */
+@media screen and (max-width: 1068px){
+	.toptop{
+		padding-top: 101px;
+		height: 569px;
+	}
+	.top .top1{
+		width: auto;
+		padding: 0 25px;
+	}
+	nav .nav1{
+		width: auto;
+		padding: 0 25px;
+	}
+	.tu1{
+		height: 82px;
+	}
+	.tu1 h2{
+		height: 48px;
+		font-size: 44px;
+	}
+	.tu1 h3{
+		height: 28px;
+		margin-top: 0px;
+		font-size: 24px;
+	}
+	.tu2{
+		width:708px;
+		height: 148px;
+		background-image:url("../img/iphone_x_medium.jpg");
+		background-size: 100% 100%;
+		position: absolute;
+		top: 278px;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+	}
+	.tu3{
+		top: 181px;
+		width: 549px;
+		height: 388px;
+		background-image:url("../img/iphone2-2.jpg");
+	}
+	.tu4{
+		top: 184px;
+		width: 762px;
+		height: 339px;
+		background-image:url("../img/watch_medium.jpg");
+	}
+	.tup{
+		width: 144px;
+		height: 56px;
+		margin: 0 auto;
+		background-image: url('../img/watch_series_3_medium.png');
+		background-size: 100% 100%;
+	}
+	.goods{
+		height: 490px;
+	}
+	.goods1{
+		background-image: url('../img/tv_4k_medium.jpg');
+		background-position: center;
+		background-size:516px 490px;
+	}
+	.goods1-zi{
+		height: 103px;
+		padding-top: 45px;
+	}
+	.goods1-zi .zi1{
+		width: 95px;
+		height: 26px;
+		background-image: url('../img/tv_4k_medium.png');
+		background-size: 100% 100%;
+	}
+	.goods1-zi .zi2{
+		margin: 3px auto 0;
+		font-size: 19px;
+	}
+	.goods2 .zi3{
+		text-align: center;
+		font-size: 32px;
+	}
+	.goods2-tu{
+		height: 375px;
+	}
+	.goods2-tu2{
+		height: 350px;
+	}
+	.goods2-tutu{
+		width: 318px;
+		height: 91px;
+		background-image:url('../img/ipad_pro_medium.jpg');
+		background-size:100% 100%;
+		background-repeat: no-repeat;
+	}
+	.goods4-tutu{
+		width: 296px;
+		height: 212px;
+		background-image:url('../img/airpods_medium.jpg');
+	}
+	.goods3-tutu{
+		width: 308px;
+		height: 217px;
+		background-image:url('../img/imac_medium.jpg');
+	}
+	.foot{
+		padding-top: 21px;
+	}
+	.foot1,.foot2{
+		width: auto;
+		padding: 0 22px 21px;
+	}
+	.foot2,.foot3{
+		width: auto;
+	}
+}
+/* 屏幕1结束 */
+/* 屏幕2开始 */
+@media screen and (max-width: 900px){
+	.foot3{
+		display: none;
+	}
+	.foot4{
+		display: block;
+	}	
+}
+/* 屏幕2结束 */
+/* 屏幕3开始 */
+@media screen and (max-width: 767px){
+	nav .nav1{
+		display: none;
+	}
+	nav .nav2{
+		display: flex;
+		justify-content: space-between;
+	}
+	.foot1-1{
+		padding-top: 0;
+		height:36px;
+		line-height: 36px; 
+		width: 100%;
+		overflow: hidden;
+		border-bottom: 1px solid #ccc;
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+	.foot1-1:hover{
+		height: auto;
+	}
+	.foot1-1:hover a{
+		height: 25px;
+		padding: 0;
+	}
+	.foot1-1::after{
+		content:"+";
+		position: absolute;
+		right:30px;
+		top: 5px;
+		color: #555;
+		font-size: 15px;
+		transition: all 0.3s;
+		cursor: pointer;
+	}
+	.foot1-1:hover::after{
+		transform: rotate(45deg);
+	}
+	.foot2{
+		padding: 0 22px 19px;
+	}
+	.foot22{
+	border-bottom: 0;
+	}
+	.foot3-2{
+		width: 100%;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+	.foot3-1{
+		margin-top: 20px;
+	}
+	.foot4 a{
+		margin-top: 15px;
+	}
+	.foot3-2 a{
+		margin-top: 0;
+	}
+}
+/* 屏幕3结束 */
+/* 屏幕4开始 */
+@media screen and (max-width: 735px){
+	.toptop{
+		padding-top: 40px;
+		height: 500px;
+	}
+	.tu1{
+		height: 56px;
+	}
+	.tu2{
+		width:167px;
+		height: 333px;
+		background-image:url("../img/iphone_x_small.jpg");
+		background-size: 100% 100%;
+		position: absolute;
+		top: 130px;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+	}
+	.tu1 h2{
+		height: 36px;
+		font-size: 32px;
+	}
+	.tu1 h3{
+		height: 26px;
+		margin-top: 4px;
+		font-size: 19px;
+	}
+	.tu3{
+		top: 143px;
+		width: 267px;
+		height: 357px;
+		background-image:url("../img/iphone2-3.jpg");
+	}
+	.tu4{
+		top: 140px;
+		width: 302px;
+		height: 338px;
+		background-image:url("../img/watch_small.jpg");
+	}
+	.tup{
+		width: 128px;
+		height: 46px;
+		margin: 0 auto;
+		background-image: url('../img/watch_series_3_small.png');
+		background-size: 100% 100%;
+	}
+	.goods{
+		height: 500px;
+	}
+	.goods1-zi{
+		height: 100px;
+		padding-top: 43px;
+	}
+	.goods1-zi .zi1{
+		width: 90px;
+		height: 25px;
+		background-image: url('../img/tv_4k_small.png');
+		background-size: 100% 100%;
+	}
+	.goods1{
+		width: 100%;
+		border: 0;
+		border-bottom: 12px solid #fff;
+	}
+	.goods2{
+		width: 100%;
+		border: 0;
+		border-bottom: 12px solid #fff;
+	}
+	.goods2-tutu{
+		width: 299px;
+		height: 86px;
+		background-image:url('../img/ipad_pro_small.jpg');
+	}
+	.goods3-tutu{
+		width: 290px;
+		height: 204px;
+		background-image:url('../img/imac_small.jpg');
+	}
+	.goods4-tutu{
+		width: 296px;
+		height: 212px;
+		background-image:url('../img/airpods_small.jpg');
+	}
+}
+/* 屏幕4结束 */
+/* 屏幕5开始 */
+@media screen and (max-width: 464px){
+	.foot2-1{
+		line-height: 16px;
+		height: 16px;
+		width: 100%;
+	}
+}
+/*屏幕5结束 */
